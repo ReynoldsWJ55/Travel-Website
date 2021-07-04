@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  color: #dddddc;
 }
 
 h1 {
@@ -40,7 +41,7 @@ h5 {
 }
 
 a {
-  color: #f9f9fa;
+  color: #c4c4c3;
   text-decoration: none;
 }
 
@@ -48,7 +49,7 @@ button {
   padding: 2rem 6rem;
   background: #363748;
   border: none;
-  color: white;
+  color: #c4c4c3;
   font-size: 1.8rem;
   cursor: pointer;
 }
@@ -57,7 +58,6 @@ button {
 
 .main-head {
   background: #020204;
-  color: #f9f9fa;
 }
 
 nav {
@@ -85,13 +85,12 @@ nav ul {
 }
 
 .hero {
-  min-height: 90vh;
+  min-height: 89vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
     url("/img/landing-page.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #f9f9fa;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,7 +102,79 @@ nav ul {
   padding: 5rem;
 }
 
+/* Namibia Highlights */
+#namibia-highlights {
+  min-height: 100vh;
+  color: #363748;
+  background-color: #e9e9e9;
+  border: 5px solid red;
+}
+
+.highlights-head {
+  min-height: 60vh;
+  border: 5px solid red;
+  text-align: center;
+}
+
+.highlights-list-map {
+  min-height: 40vh;
+  display: flex;
+  border: 5px solid red;
+}
+
+.highlights-list {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.highlights-list ul {
+  color: #363748;
+  display: flex;
+  min-width: 50vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.highlights-map {
+  min-height: 40vh;
+  border: 5px solid red;
+  display: flex;
+  min-width: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Locations */
+#bucket-list {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
+    url(/img/harbour-page.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bucket-list-head {
+  padding-top: 25rem;
+}
+
+.bucket-list-head h3 {
+  padding: 5rem;
+}
+
+/* Media */
+
 @media screen and (max-width: 935px) {
+  html {
+    font-size: 45%;
+  }
   nav {
     text-align: center;
   }
