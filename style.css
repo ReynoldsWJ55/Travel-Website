@@ -103,53 +103,64 @@ nav ul {
 }
 
 /* Namibia Highlights */
-#namibia-highlights {
+#highlights {
   min-height: 100vh;
   color: #363748;
-  background-color: #e9e9e9;
-  border: 5px solid red;
+  background-color: #f2f2f2;
 }
 
 .highlights-head {
-  min-height: 60vh;
-  border: 5px solid red;
+  min-height: 30vh;
+  width: 90%;
+  margin: auto;
   text-align: center;
+  padding: 5rem 0 5rem;
 }
 
-.highlights-list-map {
-  min-height: 40vh;
+#highlights-list-map-container {
+  min-height: 30vh;
+  width: 90%;
+  margin: auto;
   display: flex;
-  border: 5px solid red;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .highlights-list {
-  min-height: 40vh;
+  text-align: center;
+  color: #363748;
+  min-width: 40vh;
+}
+
+.map {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-content: center;
   align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+#cards {
+  min-height: 30vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
 }
 
-.highlights-list ul {
-  color: #363748;
-  display: flex;
-  min-width: 50vh;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.highlights-map {
-  min-height: 40vh;
-  border: 5px solid red;
-  display: flex;
-  min-width: 50vh;
-  align-items: center;
-  justify-content: center;
+#cards img {
+  height: 100px;
+  padding: 2rem;
 }
 
 /* Locations */
-#bucket-list {
+#about-travelly {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
     url(/img/harbour-page.jpeg);
@@ -161,11 +172,11 @@ nav ul {
   text-align: center;
 }
 
-.bucket-list-head {
+.about-travelly {
   padding-top: 25rem;
 }
 
-.bucket-list-head h3 {
+.about-travelly h3 {
   padding: 5rem;
 }
 
