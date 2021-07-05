@@ -215,6 +215,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .name-form,
@@ -267,5 +268,5 @@ nav ul {
     padding-top: 20rem;
   }
 .map{
-  padding-top: 10rem;
+  padding-top: 10rem
 }
