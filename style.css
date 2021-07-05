@@ -143,7 +143,7 @@ nav ul {
   margin: 0;
 }
 
-#cards {
+#highlights-cards {
   min-height: 30vh;
   width: 90%;
   margin: auto;
@@ -154,12 +154,12 @@ nav ul {
   text-align: center;
 }
 
-#cards img {
-  height: 100px;
+#highlights-cards img {
   padding: 2rem;
+  height: 100px;
 }
 
-/* Locations */
+/* About */
 #about-travelly {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
@@ -178,6 +178,60 @@ nav ul {
 
 .about-travelly h3 {
   padding: 5rem;
+}
+
+/* Contact */
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
+    url(/img/contact-ethosa.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-us {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 5rem 0 5rem;
+}
+
+.form-info {
+  width: 90%;
+  min-height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.form {
+  min-width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Footer */
+#footer {
+  min-height: 7vh;
+  background: #020204;
+  padding-top: 2rem;
+}
+
+#footer p {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 /* Media */
