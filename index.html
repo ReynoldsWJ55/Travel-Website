@@ -111,14 +111,21 @@
         </header>
 
         <div class="form-info">
-            <form class="form" netlify>
-                <label for="name">Name:</label>
-                <input type="text" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" name="email" required>>
-                <label for="message">Message:</label>
-                <input type="message" name="message" required>>
-            </form>
+            <form class="form" name="form" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <div data-netlify-recaptcha="true"></div>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
             <div class="contact-info">
                 <p>Email Placeholder</p>
                 <p>Facebook Placeholder</p>
