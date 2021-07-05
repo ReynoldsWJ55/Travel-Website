@@ -246,4 +246,20 @@ nav ul {
   #Logo {
     padding: 1rem;
   }
+  #highlights-list-map-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .highlights-list {
+    padding: 2rem;
+  }
+  #highlights-cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
