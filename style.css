@@ -122,6 +122,7 @@ nav ul {
   width: 90%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
@@ -136,18 +137,20 @@ nav ul {
 
 .map {
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0;
-  margin: 0;
+  size: 10px;
 }
+
 
 #highlights-cards {
   min-height: 30vh;
   width: 90%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
@@ -191,10 +194,11 @@ nav ul {
 }
 
 .contact-us {
+  padding-top: 10rem;
   width: 90%;
   margin: auto;
   text-align: center;
-  padding: 5rem 0 5rem;
+
 }
 
 .form-info {
@@ -202,12 +206,12 @@ nav ul {
   min-height: 80vh;
   margin: auto;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+
 }
 
 .form {
-  min-width: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,9 +220,7 @@ nav ul {
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 /* Footer */
@@ -246,20 +248,7 @@ nav ul {
   #Logo {
     padding: 1rem;
   }
-  #highlights-list-map-container {
-    display: flex;
-    flex-wrap: wrap;
+  #map {
+    max-width: 200px;
+    max-height: 200px;
   }
-  #contact {
-    display: flex;
-    flex-direction: column;
-  }
-  .highlights-list {
-    padding: 2rem;
-  }
-  #highlights-cards {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-}
