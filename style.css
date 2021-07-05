@@ -217,6 +217,21 @@ nav ul {
   justify-content: center;
 }
 
+.name-form,
+.email-form{
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.message-form textarea {
+  height: 150px;
+  width: 300px;
+}
+
+.message-form label {
+  text-emphasis: center;
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -230,7 +245,7 @@ nav ul {
   padding-top: 2rem;
 }
 
-#footer p {
+#copyright {
   width: 90%;
   margin: auto;
   text-align: center;
@@ -248,7 +263,9 @@ nav ul {
   #Logo {
     padding: 1rem;
   }
-  #map {
-    max-width: 200px;
-    max-height: 200px;
+  .highlights-head {
+    padding-top: 20rem;
   }
+.map{
+  padding-top: 10rem;
+}
