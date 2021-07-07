@@ -141,9 +141,9 @@ nav ul {
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
-  size: 10px;
+  size: 100%;
+  overflow: hidden;
 }
-
 
 #highlights-cards {
   min-height: 30vh;
@@ -198,17 +198,16 @@ nav ul {
   width: 90%;
   margin: auto;
   text-align: center;
-
 }
 
 .form-info {
   width: 90%;
   min-height: 80vh;
+  padding: 2rem;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .form {
@@ -219,7 +218,7 @@ nav ul {
 }
 
 .name-form,
-.email-form{
+.email-form {
   padding-bottom: 3rem;
   text-align: center;
 }
@@ -267,6 +266,7 @@ nav ul {
   .highlights-head {
     padding-top: 20rem;
   }
-.map{
-  padding-top: 10rem
+  .map {
+    padding-top: 10rem;
+  }
 }
