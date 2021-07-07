@@ -58,12 +58,14 @@ button {
 
 .main-head {
   background: #020204;
+  position: sticky;
+  top: 0px;
 }
 
 nav {
-  min-height: 10vh;
+  min-height: 5vh;
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -175,12 +177,40 @@ nav ul {
   text-align: center;
 }
 
-.about-travelly {
-  padding-top: 25rem;
+#about-travelly {
+  padding-top: 15rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-travelly h3 {
+  padding-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+.card-container {
   padding: 5rem;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 2rem;
+  padding: 3rem;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #363748;
+  box-shadow: 0px 7px 22px 5px rgba(227, 227, 227, 0.9);
+}
+
+.image {
+  height: 250px;
+  border-radius: 50%;
 }
 
 /* Contact */
@@ -206,6 +236,7 @@ nav ul {
   padding: 2rem;
   margin: auto;
   display: flex;
+  align-content: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -264,9 +295,12 @@ nav ul {
     padding: 1rem;
   }
   .highlights-head {
-    padding-top: 20rem;
+    padding-top: 4rem;
   }
   .map {
     padding-top: 10rem;
+  }
+  #highlights-cards {
+    padding: 4rem 0rem 4rem;
   }
 }
