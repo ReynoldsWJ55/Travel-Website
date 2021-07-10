@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-padding-top: 5vh;
 }
 
 body {
@@ -107,7 +108,7 @@ nav ul {
 
 /* Namibia Highlights */
 #highlights {
-  min-height: 100h;
+  min-height: 95vh;
   color: #363748;
   background-color: #f2f2f2;
 }
@@ -213,7 +214,7 @@ nav ul {
 
 /* Contact */
 #contact {
-  min-height: 93vh;
+  min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
     url(/img/contact-ethosa.jpeg);
   background-repeat: no-repeat;
@@ -282,7 +283,7 @@ input {
 
 /* Footer */
 #footer {
-  min-height: 7vh;
+  min-height: 5vh;
   background: #020204;
   padding-top: 2rem;
 }

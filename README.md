@@ -1,6 +1,8 @@
 # Basic Travel Website Project
 
-In this project I used HTML and CSS to create a static website for a travel company based in Namibia.
+In my first project I created a static website using HTML5 and CSS3 for a fictional travel company operating in Namibia.
+
+[Travelly Namibia](https://travellynamibia.netlify.app)
 
 ## First Steps
 
@@ -10,3 +12,4 @@ In this project I used HTML and CSS to create a static website for a travel comp
 ## Second Steps
 
 - Deployed page to Netlify using continuous integration (CI) and continuous deployment (CD) workflow
+- Integrated Netlify form feature to support backend form submission
