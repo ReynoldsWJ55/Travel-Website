@@ -294,6 +294,15 @@ input {
   text-align: center;
 }
 
+/* Accessibility */
+button:focus {
+  background: #505050;
+}
+
+button:hover {
+  background: #505050;
+}
+
 /* Media */
 
 @media screen and (max-width: 935px) {
