@@ -106,17 +106,17 @@
         <div class="card-container">
             <div class="card">
                 <img class="image" src="/img/kevindoe.jpeg" alt="">
-                <h2>Kevin Doe</h2>
+                <h2>Kevin</h2>
                 <p>Owner & Guide</p>
             </div>
             <div class="card">
                 <img class="image" src="/img/janedoe.jpeg" alt="">
-                <h2>Jane Doe</h2>
+                <h2>Karen</h2>
                 <p>Guide</p>
             </div>
             <div class="card">
                 <img class="image" src="img/johndoe.jpeg" alt="">
-                <h2>John Doe</h2>
+                <h2>John</h2>
                 <p>Guide</p>
             </div>
         </div>
@@ -128,31 +128,34 @@
         <header class="contact-us">
             <h2>Contact Us</h2>
         </header>
+        <section class="form-social">
+            <div class="form-info">
+                <form class="form" name="form" method="POST" data-netlify="true">
 
-        <div class="form-info">
-            <form class="form" name="form" method="POST" data-netlify="true">
-                <div class="name-form">
-                    <label>Your Name: <input type="text" name="name" /></label>
-                </div>
-                <div class="email-form">
-                    <label>Your Email: <input type="email" name="email" /></label>
-                </div>
-                <div class="message-form">
-                    <label>Message: <textarea name="message"></textarea></label>
-                </div>
-                <div data-netlify-recaptcha="true"></div>
-                <p>
-                    <button class="button-form" type="submit">Send</button>
-                </p>
-            </form>
-            <div class="contact-info">
-                <p>Email Placeholder</p>
-                <p>Facebook Placeholder</p>
-                <p>Instagram Placeholder</p>
-                <p>Twitter Placeholder</p>
+                        <label for="name">Your Name: </label>
+                        <input type="text" name="name" id="name" required/>
+
+                        <label for="email">Your Email:</label>
+                        <input type="email" name="email" id="email" required/>
+
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" required></textarea>
+
+                    <div data-netlify-recaptcha="true"></div>
+                    <p>
+                        <button class="button-form" type="submit">Send</button>
+                    </p>
+                </form>
+
             </div>
-        </div>
-
+            <div class="social-media">
+                <ul>
+                    <li><a target="_blank" href="mailto:example@examplemail.com"><img src="/icons/email.png" alt="Email"></a><a href="mailto:Example@ExampleMail.com<">Example@ExampleMail.com</a></li>
+                    <li><a target="_blank" href="facebook.com"><img src="/icons/facebook.png" alt="facebook"></a><a href="facebook.com">Facebook</a></li>
+                    <li><a target="_blank" href="instagram.com"><img src="/icons/instagram.svg" alt="instagram"></a><a href="instagram.com">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
     </section>
 
     <!-- Footer -->

@@ -60,6 +60,7 @@ button {
   background: #020204;
   position: sticky;
   top: 0px;
+  z-index: 3;
 }
 
 nav {
@@ -106,7 +107,7 @@ nav ul {
 
 /* Namibia Highlights */
 #highlights {
-  min-height: 100vh;
+  min-height: 100h;
   color: #363748;
   background-color: #f2f2f2;
 }
@@ -173,27 +174,22 @@ nav ul {
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-#about-travelly {
-  padding-top: 15rem;
+.about-travelly {
+  width: 90%;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-.about-travelly h3 {
-  padding-top: 5rem;
+.card-container {
   width: 90%;
   margin: auto;
-}
-
-.card-container {
-  padding: 5rem;
-  width: 100%;
   display: flex;
-  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -217,7 +213,7 @@ nav ul {
 
 /* Contact */
 #contact {
-  min-height: 100vh;
+  min-height: 93vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
     url(/img/contact-ethosa.jpeg);
   background-repeat: no-repeat;
@@ -226,19 +222,19 @@ nav ul {
 }
 
 .contact-us {
-  padding-top: 10rem;
   width: 90%;
   margin: auto;
+  padding: 5rem;
   text-align: center;
+  justify-content: center;
 }
 
 .form-info {
-  width: 90%;
-  min-height: 80vh;
   padding: 2rem;
+  width: 90%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -247,27 +243,41 @@ nav ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 3rem;
 }
 
-.name-form,
-.email-form {
-  padding-bottom: 3rem;
-  text-align: center;
+.form-info textarea,
+input {
+  width: 66%;
+  margin-bottom: 2rem;
 }
 
-.message-form textarea {
-  height: 150px;
-  width: 300px;
+.form-info textarea {
+  height: 200px;
 }
 
-.message-form label {
-  text-emphasis: center;
-}
-
-.contact-info {
+.social-media {
+  width: 90%;
+  margin: auto;
+  padding: 3rem;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+
+.social-media ul {
+  list-style: none;
+}
+
+.social-media img {
+  height: 75px;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.social-media a {
+  color: white;
 }
 
 /* Footer */
