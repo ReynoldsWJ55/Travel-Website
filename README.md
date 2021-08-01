@@ -1,6 +1,6 @@
 # Basic Travel Website Project
 
-In my first project I created a static website using HTML5 and CSS3 for a fictional travel company operating in Namibia.
+In my first project, I created a static website using HTML5 and CSS3 for a fictional travel company operating in Namibia.
 
 [Travelly Namibia](https://travellynamibia.netlify.app)
 
